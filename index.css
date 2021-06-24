@@ -1,0 +1,70 @@
+:root{
+    --backCol: #f1f1f1;
+    --textCol: #000000;
+}
+*{
+    border: 0px solid;
+}
+body{
+    background-color:var(--backCol); 
+    height: 100%;
+}
+
+#yang{
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 50px; 
+    background-color: var(--backCol); 
+    margin-bottom: 10px; 
+    color: var(--textCol); 
+}
+.input_expr{
+    width: 90%; 
+    margin-right: 5%;
+    margin-left:0;
+    margin-top: 10px; 
+    background-color: var(--backCol); 
+    border: var(--backCol); 
+    color: var(--textCol);
+}
+.courier-font{
+    font-size: 20px; font-family: Courier; font-weight:1000; 
+} 
+#yin{  
+    background-color: var(--backCol);
+    text-align: right;
+    color: var(--textCol);
+    padding-top: 12px; 
+} 
+.no-outline:focus {
+outline: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    grid-template-rows: 100%;
+    grid-column-gap: 0px;
+}
+#super-container{
+    min-height: 100%;
+    position: relative;
+}
+#yang{
+    padding-bottom: 10px;
+}
+#cmd-input{
+    padding-bottom: 50px;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+    background: var(--backCol);
+    color: var(--textCol);
+}
+.right-align{
+    text-align: right;
+} 
