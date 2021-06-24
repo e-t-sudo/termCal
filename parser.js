@@ -1,4 +1,4 @@
-"use strict";
+
 let INPUTS = []; 
 let OUTPUTS = []; 
 function isDigit(token){ 
