@@ -55,9 +55,8 @@ if(sessionStorage.getItem("color")=="dark"){
                     document.getElementById('yang').innerHTML += (result!=undefined)?result:"[-y/y] : '"+evaluated_expr+"' operation not defined..."; //eval() is defined in the './myFile.js' module
                     document.getElementById('input_expr').value = "";
                 }
-               // let cmdNo = INPUTS.length + 1;
-               // document.getElementById('yin').innerText = "[" + cmdNo + "]:";
-               // commented out because the command number is not be dynamically changed
+                let cmdNo = INPUTS.length + 1;
+                document.getElementById('yin').innerText = "[" + cmdNo + "]:";
                 document.getElementById('input_expr').scrollIntoView();
         }
     }
