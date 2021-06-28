@@ -9,6 +9,6 @@ Demo at <a href="https://e-t-sudo.github.io/termCal"><https://e-t-sudo.github.io
   * `history` gives the previously evaluated expressions and their results
   * `dark`/`light` can be used to switch the console theme
   * `#` can be used to disable command tracking
-  * Pressing <key>Enter</key> without a command string gives the result of the last succesfully executed operation
+  * Pressing <kbd>Enter</kbd> without a command string gives the result of the last succesfully executed operation
 ## Todo
 Although the frontend is beautiful, the underlying parser and the evaluator function is not that strong! It can only support a few basic mathematical operations for now. It needs to rewritten to support variables, functions, and perhaps <s>control statements like if-else and for loops</s>.
