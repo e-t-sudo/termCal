@@ -2,7 +2,7 @@
 A failed attempt at designing an expression parser!
 
 
-Demo at <a href="https://erstan.github.io/termCal"><https://e-t-sudo.github.io/termCal></a>
+Demo at <https://erstan.github.io/termCal>
 ## Guide
   * Basic mathematical operators, `+`, `-`, `*`, `/`, `%`, `^` supported for integers and floating point numbers
   * `clear` erases the results form previous commands
